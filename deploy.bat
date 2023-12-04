@@ -13,6 +13,6 @@ echo(===================== dir copy success =====================)
 
 :: 3、提交git
 git add .
-git commit -m '%1'
+git commit -m %1
 git push
 echo(===================== git push success =====================)
