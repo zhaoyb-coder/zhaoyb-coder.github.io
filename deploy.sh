@@ -6,7 +6,7 @@ echo ===========npm build success========
 # 2、提交blog仓库到github
 git add .
 git commit -m $1
-git push
+git push -f
 echo ==========git push blog success========
 
 # 3、删除旧数据，并复制新数据
@@ -19,5 +19,5 @@ echo ==========copy success================
 # 4、提交github
 git add .
 git commit -m $1
-git push
+git push -f
 echo ==========git push success===========
